@@ -17,13 +17,7 @@
 
 // Solution:
 function makeNegative(num) {
-  if (Math.sign(num) === -1 ){
-    return num
-  } else if (Math.sign(num) === 0 ) {
-    return 0
-  } else {
-    return -num
-  }
+  return num < 0 ? num : -num
 }
 
-console.log(makeNegative(0.12))
+console.log(makeNegative(0))
