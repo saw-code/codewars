@@ -1,1 +1,1 @@
-Here will be tasks from codewars
+There will be tasks from Codewars here.
